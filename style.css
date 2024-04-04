@@ -88,6 +88,7 @@
     color: transparent;
     -webkit-text-stroke: .5px #fff;
     background-image: linear-gradient(#BF3F3F, #BF3F3F);
+    text-shadow: 0 0 5px #BF3F3F;
     background-repeat: no-repeat;
     -webkit-background-clip: text;
     background-position: -210px 0;
