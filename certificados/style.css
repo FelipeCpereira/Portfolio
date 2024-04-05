@@ -52,17 +52,6 @@
     padding: 0 10%;
 }
 
-.cert-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    width: 1880px;
-    left:20px;
-    top: 309px;
-    max-width: 1880px;
-}
-
 .btn {
     display: inline-flex;
     padding: 12px 35px;
