@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #BF3F3F;
+    text-shadow: 0 0 5px #BF3F3F;
+    transition: .3s;
+}
+
+.linguagens {
+    height: 50vh;
+    background: linear-gradient(180deg, #0D0D0D 65%, #fff 35%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.linguagens-content {
+    margin: 0 auto;
+    max-width: 600px;
+    color: #fff;
+    text-align: center;
+}
+
+.linguagens-content h1 {
+    font-size: 55px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.linguagens-content p {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-flex;
+    padding: 12px 35px;
+    background: #BF3F3F;
+    border-radius: 40px;
+    font-size: 17px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-shadow: none;
+    transition: .5s;
+    margin: 0 auto;
+}
+
+.btn:hover {
+    box-shadow: 0 0 10px #BF3F3F;
+}
