@@ -52,6 +52,10 @@
     padding: 0 10%;
 }
 
+.areas-content{
+    margin: 0 auto;
+}
+
 .btn {
     display: inline-flex;
     padding: 12px 35px;
