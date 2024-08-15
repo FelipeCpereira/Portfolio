@@ -43,7 +43,7 @@
     transition: .3s;
 }
 
-.tri2 {
+.tri1 {
     height: 50vh;
     background: linear-gradient(180deg, #0D0D0D 65%, #fff 35%);
     display: flex;
@@ -52,34 +52,14 @@
     padding: 0 10%;
 }
 
-.tri2-content {
-    margin-left: 550px;
-    font-size: 40px;
-    text-align: center;
-    color: transparent;
-    -webkit-text-stroke: .5px #fff;
-    background-image: linear-gradient(#BF3F3F, #BF3F3F);
-    background-repeat: no-repeat;
-    -webkit-background-clip: text;
-    background-position: -500px 0;
-    animation: animateText 5s linear infinite;
-    text-shadow: 0 0 10px #BF3F3F;
-}
-
-@keyframes animateText {
-    0%,
-    95%,
-    100% {
-        background-position: -500px 0;
-    }
-    65%,
-    85%{
-        background-position: 0 0;
-    }
+.tri1-content {
+    margin: 0 auto;
 }
 
 .btn {
     display: inline-flex;
+    justify-content: center;
+    align-items: center;
     padding: 12px 35px;
     background: #BF3F3F;
     border-radius: 40px;
