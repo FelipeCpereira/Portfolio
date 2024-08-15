@@ -44,8 +44,8 @@
 }
 
 .tec {
-    height: 50vh;
-    background: linear-gradient(180deg, #0D0D0D 65%, #fff 35%);
+    height: 90vh;
+    background: linear-gradient(180deg, #0D0D0D 85%, #fff 15%);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,13 +54,13 @@
 
 .tec-content {
     margin: 0 auto;
-    max-width: 600px;
+    max-width: 1000px;
     color: #fff;
     text-align: center;
 }
 
 .tec-content h1 {
-    font-size: 55px;
+    font-size: 25px;
     line-height: 1.2;
     text-align: center;
 }
@@ -71,7 +71,7 @@
 }
 
 .btn {
-    display: inline-flex;
+    display:inline-block;
     padding: 12px 35px;
     background: #BF3F3F;
     border-radius: 40px;
@@ -82,7 +82,7 @@
     letter-spacing: 1px;
     box-shadow: none;
     transition: .5s;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .btn:hover {
