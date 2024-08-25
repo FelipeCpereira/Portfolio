@@ -43,7 +43,7 @@
     transition: .3s;
 }
 
-.ppe {
+.humanas {
     height: 50vh;
     background: linear-gradient(180deg, #0D0D0D 65%, #fff 35%);
     display: flex;
@@ -52,8 +52,22 @@
     padding: 0 10%;
 }
 
-.ppe-content{
+.humanas-content {
     margin: 0 auto;
+    max-width: 600px;
+    color: #fff;
+    text-align: center;
+}
+
+.humanas-content h1 {
+    font-size: 55px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.humanas-content p {
+    font-size: 16px;
+    margin-top: 20px;
 }
 
 .btn {
@@ -68,7 +82,7 @@
     letter-spacing: 1px;
     box-shadow: none;
     transition: .5s;
-    margin: 0 auto;
+    margin: 5px auto;
 }
 
 .btn:hover {
