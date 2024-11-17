@@ -45,7 +45,7 @@
 
 .humanas {
     height: 50vh;
-    background: linear-gradient(180deg, #0D0D0D 65%, #fff 35%);
+    background: linear-gradient(180deg, #0D0D0D 80%, #fff 35%);
     display: flex;
     justify-content: space-between;
     align-items: center;
